@@ -1,11 +1,11 @@
 #include <iostream>
-#include <cstdlib> // для system
+#include <cstdlib> // system
 #include "MathematicsOperation.h";
 
 using namespace std;
 
 
-//Основной метод запуска программы
+//The main method of launching the program
 int main()
 {
     MathematicsOperation calculator;

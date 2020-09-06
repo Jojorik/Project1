@@ -3,7 +3,7 @@
 
 /*!
 * 
-* Класс, реализующий простейшие математические операции(Калькулятор)
+* A class that implements the simplest mathematical operations(Calculator)
   @author: Ponomarev G.I.
 
 */
@@ -17,7 +17,7 @@ class MathematicsOperation
 
 public:
 
-    //Метод иницилизации переменных
+    //Method for initializing variables
     void inizilizeOperand() {
 
         std::cout << "Enter first number: ";
@@ -29,7 +29,7 @@ public:
 
 
     }
-    //Метод, реализующий математические операции над переменными
+    //A method that implements mathematical operations on variables
     int  calculate() {
 
         switch (sign)
